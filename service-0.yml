@@ -1,0 +1,11 @@
+configuration:
+  projectName: Service-0
+server:
+  port: 8080
+
+---
+spring:
+  profiles: development
+server:
+  port: 8080
+  

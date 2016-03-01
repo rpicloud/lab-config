@@ -1,15 +1,17 @@
 configuration:
   projectName: Service-0
+  service1:
+    host: 192.168.1.41
+    port: 9001
 server:
   port: 9000
-service1:
-  host: 192.168.1.41
-  port: 9001
+
 ---
 spring:
   profiles: development
 server:
   port: 9000
-service1:
-  host: localhost
-  port: 9001
+configuration:
+  service1:
+    host: localhost
+    port: 9001

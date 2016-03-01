@@ -1,11 +1,11 @@
 configuration:
   projectName: Service-1
 server:
-  port: 8081
+  port: 9001
 
 ---
 spring:
   profiles: development
 server:
-  port: 8081
+  port: 9001
   

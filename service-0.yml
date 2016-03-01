@@ -1,11 +1,11 @@
 configuration:
   projectName: Service-0
 server:
-  port: 8080
+  port: 9000
 
 ---
 spring:
   profiles: development
 server:
-  port: 8080
+  port: 9000
   

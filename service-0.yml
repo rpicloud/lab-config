@@ -1,7 +1,7 @@
 configuration:
   projectName: Service-0
   service1:
-    host: 192.168.1.41
+    host: service-1
     port: 9001
 server:
   port: 9000

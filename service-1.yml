@@ -5,6 +5,8 @@ configuration:
     port: 9002
 server:
   port: 9001
+hystrix:
+  enabled: true
 
 ---
 spring:

@@ -9,10 +9,10 @@ server:
 ---
 spring:
   profiles: development
+server:
+  port: 9001
 configuration:
   service2:
     host: localhost
     port: 9002
-server:
-  port: 9001
   
